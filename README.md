@@ -67,3 +67,5 @@ openssl pkcs12 -export -out AzureClientCert.pfx -inkey AzureClientKey.pem -in Az
 - VNet with 2 subnets.  Default and GatewaySubnet
 - KeyVault to store admin password of VM
 - VM with private IP, NSG allowing port 80 and 3389 and enable IIS to display Default.html page
+- Virtual network gateway
+- Configured Point-to-Point Configuration.  Create root certificate.
